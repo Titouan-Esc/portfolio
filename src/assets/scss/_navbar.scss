@@ -1,0 +1,15 @@
+nav {
+  width: 35vw;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color_background2;
+  padding: 1em;
+
+  a {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "yu gothic";
+  color: $color_h1_h2;
+}
+
+p {
+  font-family: "simsunb";
+}
+
+a {
+  font-family: "simsunb";
+  font-size: 17px;
+  color: black;
+}
