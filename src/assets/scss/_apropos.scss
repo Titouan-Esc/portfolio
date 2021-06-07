@@ -1,0 +1,50 @@
+.a_propos {
+  height: 100vh;
+  position: relative;
+  background-color: $color_background2;
+
+  .top {
+    @include flex-box(row, space-between, center);
+    padding: 1em;
+  }
+
+  .apropos_middle {
+    height: 14vh;
+    padding: 1em;
+
+    ul {
+      height: 100%;
+      @include flex-box(column, space-between, flex-start);
+      font-family: "simsunb";
+    }
+  }
+
+  .apropos_text {
+    width: 60%;
+    @include flex-box(column, space-between, flex-start);
+    padding: 1em;
+    margin: 0 auto;
+
+    h2 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .subtitle {
+      color: $color_h1_h2;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+
+  .link_homepage {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    color: $color_accessoire;
+  }
+}
