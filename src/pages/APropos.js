@@ -94,10 +94,12 @@ const APropos = () => {
 
                     {/* Troisième text */}
                     <div className="apropos_text">
-                        <h2>Compétences</h2>
-                        <p>
-                            Liste non exhaustive de mes competences ainsi que de leur niveau :
-                        </p>
+                        <div className="text_top">
+                            <h2>Compétences</h2>
+                            <p>
+                                Liste non exhaustive de mes competences ainsi que de leur niveau :
+                            </p>
+                        </div>
                         <div className="img_competences">
 
                         </div>
