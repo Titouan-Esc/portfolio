@@ -7,6 +7,71 @@
     padding: 1em;
   }
 
+  .contact_text {
+    width: 70%;
+    height: 50vh;
+    @include flex-box(column, center, flex-start);
+    margin: 0 auto;
+
+    p {
+      font-size: 20px;
+      line-height: 7vh;
+
+      span {
+        color: $color_h1_h2;
+
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .reseaux_cv {
+    width: 70%;
+    @include flex-box(row, space-between, flex-start);
+    margin: 0 auto;
+
+    .reseaux {
+      @include flex-box(column, space-between, center);
+
+      h2 {
+        margin-bottom: 1em;
+      }
+
+      .reseaux_logo {
+        width: 100%;
+        @include flex-box(row, space-around, center);
+        img {
+          width: 2vw;
+        }
+      }
+    }
+
+    .cv {
+      @include flex-box(column, space-between, center);
+
+      h2 {
+        margin-bottom: 1em;
+      }
+
+      button {
+        width: 10vw;
+        height: 5vh;
+        font-family: "simsunb";
+        font-size: 15px;
+        background-color: $color_accessoire;
+        border: 0;
+        border-radius: 8px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
   .link_homepage {
     position: absolute;
     bottom: 1em;
