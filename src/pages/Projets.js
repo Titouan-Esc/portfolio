@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import NavBar from '../components/NavBar';
 
@@ -16,9 +16,12 @@ const Projets = () => {
                 <NavBar/>
             </div>
 
-            <Slide {...propriete}>
+            <Fade {...propriete} className='slideshow'>
                 <div className="each-slide">
-                    <img src="" alt="" />
+                    <img src="./image/Maquette_TheResto.png" alt="The Resto" />
+                </div>
+                <div className="each-slide">
+                    <img src="./image/Regalia.png" alt="Regalia" />
                 </div>
                 <div className="each-slide">
                     <img src="" alt="" />
@@ -29,10 +32,7 @@ const Projets = () => {
                 <div className="each-slide">
                     <img src="" alt="" />
                 </div>
-                <div className="each-slide">
-                    <img src="" alt="" />
-                </div>
-            </Slide>
+            </Fade>
             <Link to="/" className="link_homepage">Home Page</Link>
         </main>
     )
