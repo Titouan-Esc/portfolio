@@ -4,6 +4,7 @@ nav {
   @include flex-box(row, space-between, center);
   background-color: $color_background2;
   padding: 1em;
+  z-index: 2;
 
   a {
     &:hover {
