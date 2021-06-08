@@ -59,6 +59,20 @@
           text-align: center;
         }
       }
+
+      .img_competences {
+        width: 25vw;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+
+        img {
+          width: 4vw;
+        }
+      }
     }
   }
 
