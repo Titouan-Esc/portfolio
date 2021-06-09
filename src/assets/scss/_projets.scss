@@ -8,23 +8,27 @@
   }
 
   .slideshow {
+    height: 80%;
     @include flex-box(row, space-around, center);
     padding: 1em;
 
     .each-slide {
+      @include flex-box(column, center, center);
+      width: 20vw;
       img {
-        width: 10vw;
+        width: 15vw;
         opacity: 0.5;
+        transition: all ease-in-out 1s;
 
         &:hover {
           cursor: pointer;
-          animation-name: slide_image;
-          animation-duration: 1s;
+          width: 20vw;
+          opacity: 1;
         }
       }
 
       .slide_text {
-        display: none;
+        text-align: center;
       }
     }
   }
@@ -34,20 +38,5 @@
     bottom: 1em;
     right: 1em;
     color: $color_accessoire;
-  }
-}
-
-@keyframes slide_image {
-  from {
-    width: 10vw;
-    opacity: 0.5;
-  }
-  50% {
-    width: 20vw;
-    opacity: 1;
-  }
-  to {
-    width: 10vw;
-    opacity: 0.5;
   }
 }
