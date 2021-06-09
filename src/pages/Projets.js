@@ -1,11 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
 import NavBar from '../components/NavBar';
-
-const propriete = {
-    arrows: false,
-}
 
 
 const Projets = () => {
@@ -16,23 +10,21 @@ const Projets = () => {
                 <NavBar/>
             </div>
 
-            <Fade {...propriete} className='slideshow'>
+            <div className='slideshow'>
                 <div className="each-slide">
-                    <img src="./image/Maquette_TheResto.png" alt="The Resto" />
+                    <img src="./image/Maquette_TheResto.png" alt="The Resto"/>
                 </div>
                 <div className="each-slide">
-                    <img src="./image/Regalia.png" alt="Regalia" />
+                    <img src="./image/Regalia.png" alt="Regalia"/>
+                    <div className="slide_text">
+                        <h2>Projet Regalia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, natus.</p>
+                    </div>
                 </div>
                 <div className="each-slide">
-                    <img src="" alt="" />
+                    <img src="./image/Boxe-League.png" alt="Boxe League" />
                 </div>
-                <div className="each-slide">
-                    <img src="" alt="" />
-                </div>
-                <div className="each-slide">
-                    <img src="" alt="" />
-                </div>
-            </Fade>
+            </div>
             <Link to="/" className="link_homepage">Home Page</Link>
         </main>
     )
