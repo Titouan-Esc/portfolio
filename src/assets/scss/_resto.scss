@@ -1,0 +1,30 @@
+.the_resto {
+  height: 100vh;
+  background-color: $color_background1;
+
+  h1 {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 4em;
+  }
+
+  .container {
+    width: 100%;
+    @include flex-box(row, center, center);
+
+    .container_left {
+      width: 50%;
+      img {
+        width: 20vw;
+      }
+    }
+
+    .container-right {
+      .each-slide {
+        img {
+          width: 15vw;
+        }
+      }
+    }
+  }
+}

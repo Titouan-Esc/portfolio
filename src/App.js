@@ -5,6 +5,8 @@ import APropos from "./pages/APropos";
 import Contact from "./pages/Contact";
 import Projets from "./pages/Projets";
 import Regalia from './pages/Regalia';
+import Resto from './pages/Resto';
+import BoxeLeague from './pages/BoxeLeague';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path = "/contact" component={Contact}/>
         <Route path = "/projets" component={Projets}/>
         <Route path = "/regalia" component={Regalia}/>
+        <Route path = "/resto" component={Resto}/>
+        <Route path = "/boxeleague" component={BoxeLeague}/>
       </Switch>
     </Router>
     </>
