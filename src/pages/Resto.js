@@ -1,7 +1,9 @@
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { SliderData } from "../components/SliderData"
+import SliderImage from "../components/SliderImage"
+
 
 const Resto = () => {
+
     return (
         <main className="the_resto">
             <h1>The Resto</h1>
@@ -12,17 +14,7 @@ const Resto = () => {
                     <p>N'est pas hébergé</p>
                 </div>
                 <div className="container_right">
-                    <Carousel>
-                        <div className="each-slide">
-                            <img src="./image/Maquette_TheResto2.png" alt="The Resto2" />
-                        </div>
-                        <div className="each-slide">
-                            <img src="./image/Maquette_TheResto3.png" alt="The Resto3" />
-                        </div>
-                        <div className="each-slide">
-                            <img src="./image/Maquette_TheResto4.png" alt="The Resto4" />
-                        </div>
-                    </Carousel>
+                        <SliderImage slides={SliderData} />
                 </div>
             </div>
         </main>

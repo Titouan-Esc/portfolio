@@ -1,0 +1,35 @@
+.slider {
+  position: relative;
+  height: 50vh;
+  @include flex-box(row, center, center);
+
+  .image {
+    width: 20vw;
+    border-radius: 10px;
+  }
+
+  .right-arrow {
+    font-size: 2rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+
+  .slide_active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+  .left-arrow {
+    font-size: 2rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+}

@@ -1,5 +1,4 @@
 .the_resto {
-  height: 100vh;
   background-color: $color_background1;
 
   h1 {
@@ -10,7 +9,7 @@
 
   .container {
     width: 100%;
-    @include flex-box(row, center, center);
+    @include flex-box(column, center, center);
 
     .container_left {
       width: 50%;
@@ -19,12 +18,7 @@
       }
     }
 
-    .container-right {
-      .each-slide {
-        img {
-          width: 15vw;
-        }
-      }
+    .container_right {
     }
   }
 }
