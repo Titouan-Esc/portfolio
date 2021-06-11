@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Resto = () => {
 
     return (
-        <main className="the_resto">
+        <main className="project">
             <Link to='/projets'><AiOutlineArrowLeft className='return'/></Link>
             <h1>The Resto</h1>
             <div className="container">
