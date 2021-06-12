@@ -1,5 +1,7 @@
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import RegaliaSlide from '../components/RegaliaSlide'
+import { RegaliaData } from '../components/RegaliaData';
 
 const Regalia = () => {
     return (
@@ -13,7 +15,7 @@ const Regalia = () => {
                     <p className="p">Site non hébergé</p>
                 </div>
                 <div className="container_right">
-
+                    <RegaliaSlide slides={RegaliaData}/>
                 </div>
             </div>
         </main>

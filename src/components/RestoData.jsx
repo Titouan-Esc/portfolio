@@ -1,4 +1,4 @@
-export const SliderData = [
+export const RestoData = [
     {
         image:
         './image/Maquette_TheResto2.png'

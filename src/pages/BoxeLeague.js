@@ -1,5 +1,7 @@
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import BoxeLeagueSlide from '../components/BoxeLeagueSlide'
+import { BoxeLeagueData } from '../components/BoxeLeagueData';
 
 const BoxeLeague = () => {
     return (
@@ -13,7 +15,7 @@ const BoxeLeague = () => {
                     <p className="p">Site non hébergé</p>
                 </div>
                 <div className="container_right">
-
+                    <BoxeLeagueSlide slides={BoxeLeagueData}/>
                 </div>
             </div>
         </main>

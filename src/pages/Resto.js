@@ -1,5 +1,5 @@
-import { SliderData } from "../components/SliderData";
-import SliderImage from "../components/SliderImage";
+import { RestoData } from "../components/RestoData";
+import RestoSlide from "../components/RestoSlide";
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ const Resto = () => {
                     <p className='p'>N'est pas hébergé</p>
                 </div>
                 <div className="container_right">
-                        <SliderImage slides={SliderData} />
+                        <RestoSlide slides={RestoData} />
                 </div>
             </div>
         </main>
