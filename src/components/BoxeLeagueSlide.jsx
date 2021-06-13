@@ -23,7 +23,7 @@ const SliderImage = ({ slides }) => {
 
 
     return (
-        <section className='slider'>
+        <section className='boxeleague_slider'>
             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
             {BoxeLeagueData.map((slide, index) => {
               return(

@@ -1,0 +1,47 @@
+.boxe_league {
+  height: 100vh;
+  background-color: $color_background1;
+
+  .return {
+    font-size: 2em;
+    color: $color_accessoire;
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 3em;
+  }
+
+  .container {
+    width: 100%;
+    @include flex-box(row, space-around, center);
+
+    .container_left {
+      width: 50%;
+      @include flex-box(row, center, center);
+
+      img {
+        width: 15vw;
+        margin-right: 10px;
+      }
+
+      .conteneur_text {
+        width: 50%;
+        p {
+          text-align: center;
+        }
+
+        .p {
+          margin-top: 10px;
+          color: $color_h1_h2;
+        }
+      }
+    }
+
+    .container_right {
+      width: 50%;
+    }
+  }
+}
