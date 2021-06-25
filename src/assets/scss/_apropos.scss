@@ -15,7 +15,7 @@
     ul {
       height: 100%;
       @include flex-box(column, space-between, flex-start);
-      font-family: "simsunb";
+      font-family: $font_p;
     }
   }
 
