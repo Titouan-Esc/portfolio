@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import { jsPDF } from 'jspdf';
-import Pdf from '../assets/image/CV Titouan Escorneboueu-1.png';
+import Pdf from '../assets/image/Titouan Escorneboueü (1)-1.png';
 import React, { useState } from 'react';
 
 

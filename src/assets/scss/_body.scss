@@ -8,16 +8,16 @@
 
 h1,
 h2 {
-  font-family: "yu gothic";
+  font-family: $font_h1_h2;
   color: $color_h1_h2;
 }
 
 p {
-  font-family: "simsunb";
+  font-family: $font_p;
 }
 
 a {
-  font-family: "simsunb";
+  font-family: $font_p;
   font-size: 17px;
   color: black;
 }

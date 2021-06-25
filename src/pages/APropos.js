@@ -101,15 +101,50 @@ const APropos = () => {
                             </p>
                         </div>
                         <div className="img_competences">
-                            <img src="./image/icons8-html-5.svg" alt="HTML" />
-                            <img src="./image/icons8-css3.svg" alt="CSS" />
-                            <img src="./image/icons8-javascript.svg" alt="JavaScript" />
-                            <img src="./image/icons8-sass.svg" alt="SASS" />
-                            <img src="./image/icons8-react-native.svg" alt="React" />
-                            <img src="./image/icons8-nodejs.svg" alt="NodeJs" />
-                            <img src="./image/icons8-firebase.svg" alt="Firebase" />
-                            <img src="./image/icons8-mongodb.svg" alt="MongoDB" />
-                            <img src="./image/icons8-jquery.svg" alt="JQuery" />
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-html-5.svg" alt="HTML" />
+                                <p>HTML</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-css3.svg" alt="CSS" />
+                                <p>CSS</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-javascript.svg" alt="JavaScript" />    
+                                <p>JavaScript</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-sass.svg" alt="SASS" />
+                                <p>SASS</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-react-native.svg" alt="React" />
+                                <p>React</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-nodejs.svg" alt="NodeJs" />
+                                <p>Node.js</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-firebase.svg" alt="Firebase" />
+                                <p>FireBase</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-mongodb.svg" alt="MongoDB" />
+                                <p>MongDB</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/icons8-jquery.svg" alt="JQuery" />
+                                <p>JQuery</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/python.svg" alt="Python" />
+                                <p>Python</p>
+                            </div>
+                            <div className="conteneur_img_h2">
+                                <img src="./image/java.svg" alt="Java" />
+                                <p>Java</p>
+                            </div>
                         </div>
                     </div>
                 </div>
